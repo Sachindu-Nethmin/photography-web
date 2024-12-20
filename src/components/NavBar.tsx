@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
       <div className="flex justify-between items-center h-full max-w-7xl mx-auto">
         <Link href="/" className="text-white">
           <Image
-            src="/images/Logo.png"
+            src="./images/Logo.png"
             alt="Logo"
             width={120}
             height={40}
