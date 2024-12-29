@@ -11,6 +11,7 @@ export default function Gallery(){
                 alt="Logo" 
               />
             </div>
+            
             // ...repeat for other images
           </div>
         </div>
