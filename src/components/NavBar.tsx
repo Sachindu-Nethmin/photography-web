@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="fixed w-full h-16 px-6 z-50 bg-white/10 backdrop-blur-sm border-b border-white/20">
+    <nav className="fixed w-full h-16 px-6 z-50 bg-white/10 backdrop-blur-sm border-b border-white/20 animate-fade-in-down opacity-0">
       <div className="flex justify-between items-center h-full max-w-7xl mx-auto">
         <Link href="/" className="text-white">
           <Image
-            src="./images/Logo.png"
+            src="/images/Logo.png"
             alt="Logo"
-            width={120}
-            height={40}
+            width={150}
+            height={50}
             priority
             className="object-contain"
           />

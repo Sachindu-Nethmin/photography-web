@@ -1,3 +1,5 @@
+import NavBar from "@/components/NavBar"
+
 export default function gallery() {
     return(
       <div className="p-10 bg-gray-100 min-h-screen">
