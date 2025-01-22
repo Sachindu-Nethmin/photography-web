@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -32,11 +33,15 @@ export default function Home() {
               transition-all duration-500 ease-out
               animate-fade-in-scale [animation-delay:1.8s] opacity-0
               relative group overflow-hidden">
+              <Link href="/gallery">
               <span className="relative z-10">Explore Gallery</span>
+              </Link>
               <div className="absolute inset-0 bg-gradient-to-br from-white/0 via-white/30 to-white/0 
                    translate-x-[-200%] translate-y-[-200%] group-hover:translate-x-[200%] group-hover:translate-y-[200%]
                    transition-transform duration-1000 ease-in-out rotate-45">
               </div>
+              
+
           </button>
         </div>
       </div>
