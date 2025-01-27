@@ -17,6 +17,9 @@ const NavBar: React.FC = () => {
           />
         </Link>
         <div className="flex gap-6">
+        <Link href="/" className="text-white/90 hover:text-white transition-colors duration-300">
+            Home
+          </Link>
           <Link href="/about" className="text-white/90 hover:text-white transition-colors duration-300">
             About
           </Link>
