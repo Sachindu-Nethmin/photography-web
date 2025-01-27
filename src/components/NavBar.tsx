@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="fixed w-full h-16 px-6 z-50 bg-white/10 backdrop-blur-sm border-b border-white/20 animate-fade-in-down opacity-0">
+    <nav className="fixed w-full h-16 px-6 z-50 bg-black/50 backdrop-blur-sm border-b border-black/20 animate-fade-in-down opacity-100">
       <div className="flex justify-between items-center h-full max-w-7xl mx-auto">
         <Link href="/" className="text-white">
           <Image
@@ -17,14 +17,17 @@ const NavBar: React.FC = () => {
           />
         </Link>
         <div className="flex gap-6">
-          <Link href="/about" className="text-white/90 hover:text-white transition-colors duration-300">
-            About
+        <Link href="/" className="text-white/90 hover:text-white transition-colors duration-300">
+            Home
           </Link>
-          <Link href="/contact" className="text-white/90 hover:text-white transition-colors duration-300">
-            Contact
+          <Link href="/Wildlife" className="text-white/90 hover:text-white transition-colors duration-300">
+          Wildlife
           </Link>
-          <Link href="/gallery" className="text-white/90 hover:text-white transition-colors duration-300">
-            Gallery
+          <Link href="/Events" className="text-white/90 hover:text-white transition-colors duration-300">
+          Events
+          </Link>
+          <Link href="/Architecture " className="text-white/90 hover:text-white transition-colors duration-300">
+          Architecture
           </Link>
         </div>
       </div>
