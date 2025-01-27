@@ -5,11 +5,17 @@ import "../app/globals.css";
 
 export default function ImageGrid() {
   const images = [
-    "/images/r2.png",
-    "/images/r2.png", 
-    "/images/r2.png",
-    "/images/r2.png",
-    "/images/r3.png"
+    "/images/Architecture/DJI_20240824174754_0168_D.png",
+    "/images/Architecture/DJI_20240824175144_0177_D.png",
+    "/images/Architecture/DSC01536.jpg",
+    "/images/Architecture/GOPR2740.png",
+    "/images/Architecture/GOPR2755.png",
+    "/images/Architecture/GOPR3756.png",
+    "/images/Architecture/GOPR4016.png",
+    "/images/Architecture/RHW00510.jpg",
+    "/images/Architecture/RHW00514.jpg",
+    "/images/Architecture/RHW00522.jpg"
+    
   ];
 
   return (

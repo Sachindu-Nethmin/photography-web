@@ -5,11 +5,25 @@ import "../app/globals.css";
 
 export default function ImageGrid() {
   const images = [
-    "/images/Wildlife/2U7A1869.png",
-    "/images/r2.png", 
-    "/images/r2.png",
-    "/images/r2.png",
-    "/images/r3.png"
+    "/images/Events/DJI_20240707100900_0062_D.png",
+    "/images/Events/DJI_20240819065844_0087_D.png",
+    "/images/Events/DJI_20240819071617_0117_D.png",
+    "/images/Events/DJI_20241015174233_0046_D.png",
+    "/images/Events/DJI_20241020062900_0388_D.png",
+    "/images/Events/DJI_20241206162521_0123_D.png",
+    "/images/Events/GOPR1175.png",
+    "/images/Events/GOPR1393.png",
+    "/images/Events/GOPR1552.png",
+    "/images/Events/GOPR4026.jpg",
+    "/images/Events/GOPR4066.png",
+    "/images/Events/GOPR4362.png",
+    "/images/Events/GOPR4380.png",
+    "/images/Events/GOPR4407.png",
+    "/images/Events/GOPR4461.jpg",
+    "/images/Events/GOPR4663.png",
+    "/images/Events/GOPR4681.jpg",
+    "/images/Events/GOPR4752.png",
+    "/images/Events/GOPR4831.png"
   ];
 
   return (
