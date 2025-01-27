@@ -29,12 +29,6 @@ const NavBar: React.FC = () => {
           <Link href="/Architecture " className="text-white/90 hover:text-white transition-colors duration-300">
           Architecture
           </Link>
-          <Link href="/Foods " className="text-white/90 hover:text-white transition-colors duration-300">
-          Foods
-          </Link>
-          <Link href="/Products " className="text-white/90 hover:text-white transition-colors duration-300">
-          Products
-          </Link>
         </div>
       </div>
     </nav>
