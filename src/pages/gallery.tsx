@@ -1,15 +1,36 @@
-export default function gallery() {
-    return(
-      <div className="p-10 bg-gray-100 min-h-screen">
-        <div className="grid grid-cols-3 gap-4">
-          <div className="bg-blue-500 text-white text-center py-4">Item 1</div>
-          <div className="bg-green-500 text-white text-center py-4">Item 2</div>
-          <div className="bg-red-500 text-white text-center py-4">Item 3</div>
-          <div className="bg-yellow-500 text-white text-center py-4">Item 4</div>
-          <div className="bg-purple-500 text-white text-center py-4">Item 5</div>
-          <div className="bg-pink-500 text-white text-center py-4">Item 6</div>
+import Image from 'next/image';
+import React from 'react';
+import NavBar from '../components/NavBar';
+import "../app/globals.css";
+
+export default function ImageGrid() {
+  const images = [
+    "/images/r2.png",
+    "/images/r2.png", 
+    "/images/r2.png",
+    "/images/r2.png",
+    "/images/r3.png"
+  ];
+
+  return (
+    <div className="min-h-screen bg-black-50">
+      <NavBar />
+      <main className="container mx-auto px-4 pt-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {images.map((src, index) => (
+            <div key={index} className="relative aspect-square">
+              <Image
+                src={src}
+                alt={`Gallery image ${index + 1}`}
+                fill
+                className="object-cover rounded-lg"
+                loading={index < 2 ? "eager" : "lazy"}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+          ))}
         </div>
-      </div>
-    )
-  
-  }
+      </main>
+    </div>
+  );
+}
