@@ -5,11 +5,11 @@ import "../app/globals.css";
 
 export default function ImageGrid() {
   const images = [
-    "/images/Wildlife/2U7A1869.png",
-    "/images/Wildlife/2U7A2219.png",
-    "/images/Wildlife/2U7A2299.jpg",
-    "/images/Wildlife/DSC01967.jpg",
-    "/images/Wildlife/SOL07366-Edit.png"
+    "images/Wildlife/2U7A1869.png",
+    "images/Wildlife/2U7A2219.png",
+    "images/Wildlife/2U7A2299.jpg",
+    "images/Wildlife/DSC01967.jpg",
+    "images/Wildlife/SOL07366-Edit.png"
   ];
 
   return (
