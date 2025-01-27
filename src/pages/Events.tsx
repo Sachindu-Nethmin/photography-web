@@ -18,7 +18,6 @@ export default function ImageGrid() {
     "/images/Events/GOPR4066.png",
     "/images/Events/GOPR4362.png",
     "/images/Events/GOPR4380.png",
-    "/images/Events/GOPR4407.png",
     "/images/Events/GOPR4461.jpg",
     "/images/Events/GOPR4663.png",
     "/images/Events/GOPR4681.jpg",
